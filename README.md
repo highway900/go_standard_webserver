@@ -5,7 +5,7 @@ A set of simple HTTP services written using the standard library in go
 Run samples
 ===========
 
-install the [go compiler](golang.org)
+install the [go compiler](https://golang.org)
 
 1. `go run cmd/simple1/main.go`
 2. `go run cmd/simple2/main.go`
