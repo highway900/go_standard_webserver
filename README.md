@@ -1,6 +1,6 @@
 # Simple Golang HTTP service
 
-A set of simple HTTP services written using the standard library in go
+A set of simple HTTP services written using the standard library in go. I wrote this to show a new go team what what go services is like and how we go from simple to more complex-ish and what that does for the implementation.
 
 Run samples
 ===========
@@ -41,5 +41,7 @@ openssl  x509  -req  -days 365  -in localhost.csr  -signkey localhost.key  -out 
 
 ## Additional Resources
 
-+ [Great article on building a full service](https://medium.com/rungo/creating-a-simple-hello-world-http-server-in-go-31c7fd70466e)
++ [Way better article on building web services in go](https://grafana.com/blog/2024/02/09/how-i-write-http-services-in-go-after-13-years/)
+  - NOTE: I have added this as this repo is now a few years old. It was nice to see not much has changed in the go eco http handler ecosystem.
++ [~~Great article on building a full service~~](https://medium.com/rungo/creating-a-simple-hello-world-http-server-in-go-31c7fd70466e)
 + [Testing HTTP handlers in GO](https://blog.questionable.services/article/testing-http-handlers-go/)
