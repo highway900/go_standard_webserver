@@ -1,6 +1,6 @@
 # Simple Golang HTTP service
 
-A set of simple HTTP services written using the standard library in go. I wrote this to show a new go team what what go services is like and how we go from simple to more complex-ish and what that does for the implementation.
+A set of simple HTTP services written using the standard library in go. I wrote this to show a new team how go http servers are written (showing the http lifecycle clearly) and how we go from simple to more complex-ish and how that actually makes it easier to understand what your software is doing.
 
 Run samples
 ===========
