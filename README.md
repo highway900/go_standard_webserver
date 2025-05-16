@@ -34,8 +34,10 @@ Simple3
 
 Create the key file for serving with TLS
 
-`openssl req  -new  -newkey rsa:2048  -nodes  -keyout localhost.key  -out localhost.csr`
-`openssl  x509  -req  -days 365  -in localhost.csr  -signkey localhost.key  -out localhost.crt`
+```
+openssl req  -new  -newkey rsa:2048  -nodes  -keyout localhost.key  -out localhost.csr
+openssl  x509  -req  -days 365  -in localhost.csr  -signkey localhost.key  -out localhost.crt
+```
 
 ## Additional Resources
 
